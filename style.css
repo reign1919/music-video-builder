@@ -1,0 +1,83 @@
+
+#mp3Upload {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#mp3Upload:hover {
+    background-color: #0056b3;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapercave.com/wp/wp2406619.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.upload-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.upload-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.upload-container input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-container input[type="file"]:hover {
+    background-color: #0056b3;
+}
+
+#startConversion {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startConversion:hover {
+    background-color: #218838;
+}
+
+#notification {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    text-align: center;
+}
+

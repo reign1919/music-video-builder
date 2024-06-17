@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upload Button</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="/upload" method="post" enctype="multipart/form-data" class="upload-container">
+    <div class="upload-title">UPLOAD MUSIC FILE HERE</div>
+    <input type="file" name="mp3" id="mp3Upload" accept=".mp3" required />
+    <div class="upload-title">UPLOAD COVER ART HERE</div>
+    <input type="file" name="image" id="coverArtUpload" accept=".png, .jpeg, .jpg" required />
+    <button type="submit" id="startConversion">Start Conversion</button>
+</form>
+
+<div id="notification" style="display:none;"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
